@@ -1,8 +1,8 @@
-###Crytp Wallet
+#### Crypto Wallet
 
-Using React and Typescrypt
+# Using React and Typescrypt
 
-Work in progress
+# Work in progress
 
 
 # Getting Started with Create React App
