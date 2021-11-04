@@ -5,6 +5,7 @@ import { useWeb3React } from '@web3-react/core'
 import { InjectedConnector } from '@web3-react/injected-connector'
 import useSWR from 'swr'
 import { formatEther } from '@ethersproject/units'
+import ActionAreaCard from '../style/components/card.component';
 
 export const shorter = (str) =>
   str?.length > 8 ? str.slice(0, 6) + '...' + str.slice(-4) : str
@@ -65,7 +66,7 @@ export const Wallet = () => {
   }
 
   return (
-    <div>
+     <div>
       <div>ChainId: {chainId}</div>
       <div>Account: {shorter(account)}</div>
       {active ? (
